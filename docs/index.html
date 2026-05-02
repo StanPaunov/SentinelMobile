@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sentinel Mobile is an Android monitoring app for local device, GPS, network, storage, battery, and security checks.">
+  <title>Sentinel Mobile</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Sentinel Mobile home">
+      <span class="brand-mark">SM</span>
+      <span>Sentinel Mobile</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#download">Download</a>
+      <a href="#features">Features</a>
+      <a href="#limits">Android Limits</a>
+      <a href="https://stanpaunov.github.io/PCSentinelNet/">PC Sentinel NET</a>
+      <a href="https://github.com/StanPaunov/SentinelMobile">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Android local monitoring</p>
+        <h1 id="hero-title">Sentinel Mobile</h1>
+        <p class="hero-text">
+          A dark-mode Android monitoring app for GPS, battery, memory, storage,
+          network state, device information, and practical security checks.
+        </p>
+        <div class="hero-actions" id="download">
+          <a class="button primary" href="https://github.com/StanPaunov/SentinelMobile/releases">Download APK</a>
+          <a class="button secondary" href="https://github.com/StanPaunov/SentinelMobile">View source</a>
+          <a class="button secondary" href="https://stanpaunov.github.io/PCSentinelNet/">Desktop app</a>
+        </div>
+        <dl class="release-facts" aria-label="Release facts">
+          <div><dt>Platform</dt><dd>Android 8+</dd></div>
+          <div><dt>Style</dt><dd>Dark by default</dd></div>
+          <div><dt>Companion</dt><dd>PC Sentinel NET</dd></div>
+        </dl>
+      </div>
+
+      <div class="phone-shell" aria-label="Sentinel Mobile interface preview">
+        <div class="phone-top"><span></span><strong>Sentinel Mobile</strong></div>
+        <div class="phone-metrics">
+          <div><span>GPS</span><strong>Lat / Lon</strong></div>
+          <div><span>Memory</span><strong>Live</strong></div>
+          <div><span>Storage</span><strong>Local</strong></div>
+          <div><span>Network</span><strong>Rate</strong></div>
+        </div>
+        <div class="phone-tabs">
+          <span>Overview</span><span>Network</span><span>Security</span><span>Storage</span><span>Device</span>
+        </div>
+        <div class="phone-list">
+          <div><strong>Battery Information</strong><span>Calculates after discharge data</span></div>
+          <div><strong>Open Security Settings</strong><span>Shortcut</span></div>
+          <div><strong>Android Limits</strong><span>Restricted by Android</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band" id="features" aria-labelledby="features-title">
+      <div class="section-heading">
+        <p class="eyebrow">What it monitors</p>
+        <h2 id="features-title">Android signals without pretending to be root</h2>
+      </div>
+      <div class="feature-grid">
+        <article><h3>Overview</h3><p>GPS coordinates, memory, storage, network throughput, alerts, and battery information.</p></article>
+        <article><h3>Battery</h3><p>Battery level, charging status, health, temperature, voltage, and remaining-time calculation after real discharge data is collected.</p></article>
+        <article><h3>Network</h3><p>Active transport, VPN state, metered status, interface inventory, and a shortcut to Android Network Settings.</p></article>
+        <article><h3>Security</h3><p>Screen lock, USB debugging, unknown app install status, VPN, Private DNS, developer options, and Android security patch.</p></article>
+        <article><h3>Storage</h3><p>Storage totals plus a direct shortcut to Android Storage Settings.</p></article>
+        <article><h3>Device</h3><p>Manufacturer, model, Android version, build, hardware, installed app visibility, and Device Settings shortcut.</p></article>
+      </div>
+    </section>
+
+    <section class="desktop-link" aria-labelledby="desktop-title">
+      <div>
+        <p class="eyebrow">Desktop companion</p>
+        <h2 id="desktop-title">Need Windows ports, firewall, Defender, and process data?</h2>
+      </div>
+      <p>
+        Use PC Sentinel NET on Windows for desktop-only monitoring such as TCP connections,
+        listening ports, firewall profile status, Microsoft Defender status, top processes,
+        disk inventory, and hardware/software information.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="https://stanpaunov.github.io/PCSentinelNet/">Open PC Sentinel NET website</a>
+        <a class="button secondary" href="https://github.com/StanPaunov/PCSentinelNet/releases">Download desktop release</a>
+      </div>
+    </section>
+
+    <section class="limits-section" id="limits" aria-labelledby="limits-title">
+      <div class="section-heading">
+        <p class="eyebrow">Android security model</p>
+        <h2 id="limits-title">Clear boundaries</h2>
+      </div>
+      <div class="security-list">
+        <p>Sentinel Mobile reads local Android system information and does not upload monitoring data.</p>
+        <p>The app does not request internet access or package-install permission.</p>
+        <p>Android blocks normal apps from reading global TCP listening ports, firewall profiles, and full process CPU data.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>&copy; <span id="year"></span> Sentinel Mobile</span>
+    <a href="https://github.com/StanPaunov/SentinelMobile/issues">Report an issue</a>
+  </footer>
+
+  <script src="site.js"></script>
+</body>
+</html>
