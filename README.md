@@ -40,14 +40,6 @@ https://github.com/StanPaunov/PCSentinelNet/releases/tag/v1.0-android
 
 Android does not expose global TCP listening ports, firewall profiles, Microsoft Defender, or full process CPU data to normal apps. Those features require root access, device-owner management APIs, or the Windows desktop app.
 
-Sentinel Mobile does not request internet access or package-install permission. Location is used only for the GPS coordinate card. Copied GPS coordinates are automatically cleared from the clipboard when unchanged.
-
-## Open In Android Studio
-
-1. Open Android Studio.
-2. Choose **Open**.
-3. Select this repository folder.
-4. Let Android Studio sync Gradle.
-5. Run the `app` configuration on an emulator or Android device.
+Location is used only for the GPS coordinate card. Copied GPS coordinates are automatically cleared from the clipboard when unchanged.
 
 Default refresh interval is `1 minute`; the app also supports `5 seconds`, `30 seconds`, and `Never`.
