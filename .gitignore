@@ -1,0 +1,11 @@
+.gradle/
+**/build/
+local.properties
+*.jks
+*.keystore
+*signing*
+*.p12
+.env*
+test-classes/
+# Keep Google Play bundles local.
+*.aab
